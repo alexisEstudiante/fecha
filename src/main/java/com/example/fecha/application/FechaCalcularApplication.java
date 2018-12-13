@@ -14,7 +14,7 @@ public class FechaCalcularApplication {
 
   SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
-  public String obtenerFecha(Integer folio){
+  public String obtenerFecha(){
 
     Date hoy = new Date();
     calendar.setTimeInMillis(hoy.getTime());

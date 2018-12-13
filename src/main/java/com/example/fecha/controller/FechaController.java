@@ -15,8 +15,8 @@ public class FechaController {
   private FechaCalcularApplication fechaCalcularApplication;
 
   @PostMapping
-  public String obtenerFecha(@RequestParam("folio") Integer folio) throws Exception {
-    return this.fechaCalcularApplication.obtenerFecha(folio);
+  public String obtenerFecha() throws Exception {
+    return this.fechaCalcularApplication.obtenerFecha();
   }
 
 }
