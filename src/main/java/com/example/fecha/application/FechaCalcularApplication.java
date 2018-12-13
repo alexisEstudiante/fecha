@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.Random;
 
 @Component
-public class FechaApplication {
+public class FechaCalcularApplication {
 
   Calendar calendar = Calendar.getInstance();
 
